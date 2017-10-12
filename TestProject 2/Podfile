@@ -1,0 +1,37 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+#source 'http://172.28.6.24:8080/syswin_pod_spec'
+
+target 'TestProject' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for TestProject
+#  pod 'ZXingObjC'
+#  pod 'FeedLibrary/utility'
+#pod 'toonTestLib/toonTestLibUtils'
+# pod 'toonTestLib'
+# pod 'TNPhotoSelector'
+#pod 'TNTrendsLibrary','1.0.2'
+pod 'MBProgressHUD'
+#pod 'MJRefresh'
+# pod 'WHC_ModelSqliteKit'
+  pod 'KYCuteView'
+# pod 'FeedLibrary'
+# pod 'ServiceSLibrary'
+  pod 'MJExtension'
+#  pod 'JSONModel'
+#pod 'TNChatLibrary'
+end
+# post_install do |installer|
+#     installer.pods_project.targets.each do |target|
+#         puts  target
+#         target.build_configurations.each do |config|
+#             #            if config.name == 'Debug'
+#             config.build_settings['USER_HEADER_SEARCH_PATHS'] = '${PODS_ROOT}/**'
+#             #            end
+#         end
+#     end
+# end
