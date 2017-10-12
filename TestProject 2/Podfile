@@ -2,7 +2,7 @@
 # platform :ios, '9.0'
 
 source 'https://github.com/CocoaPods/Specs.git'
-#source 'http://172.28.6.24:8080/syswin_pod_spec'
+
 
 target 'TestProject' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
